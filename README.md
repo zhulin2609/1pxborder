@@ -14,11 +14,13 @@
  
 样式设置：
 
+```
 .border-image-1px ｛
   border-width: 0 0 1px 0;
   -webkit-border-image: url(linenew.png) 0 0 2 0 stretch;
   border-image: url(linenew.png) 0 0 2 0 stretch;
 ｝
+```
 
 我们这次是把border设置在边框的底部，所以使用的图片是2px高，上部的1px颜色为透明，下部的1px使用视觉规定的border的颜色。如果边框底部和顶部同时需要border，可以使用下面的border-image：
  
